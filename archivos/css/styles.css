@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Azul oscuro para el fondo principal */
+    color: #FFFFFF; /* Texto principal en blanco */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FFFFFF; /* Fondo blanco para el contenedor principal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+}
+.left-section {
+    flex: 1;
+    padding-right: 20px;
+    background-color: #CCCCCC; /* Fondo gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+.right-section {
+    flex: 2;
+    padding-left: 20px;
+    background-color: #89a7a2; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilos para elementos comunes */
+img {
+    max-width: 100%;
+    height: center;
+}
+
+h1 {
+    margin-top: 10px;
+    color: #0e0d0d; /* Color de texto oscuro */
+}
+
+h2 {
+    margin-top: 20px;
+    color: #020202; /* Color de texto un poco más claro */
+}
+
+/* Estilos para la tabla de iconos de programación */
+.programming-icons-table {
+    border-collapse: collapse;
+    border: 2px solid #333; /* Borde oscuro */
+    border-radius: 15px; /* Bordes redondeados */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.programming-icons-table img {
+    width: 80px; /* Tamaño de los iconos (ajusta según tus preferencias) */
+    height: 80px; /* Tamaño de los iconos (ajusta según tus preferencias) */
+    margin: 10px; /* Espacio entre los iconos y los bordes */
+}
+
+.programming-icons-table td {
+    border: 3px solid #333; /* Borde oscuro */
+    text-align: center;
+}
+
+.profile-picture {
+    width: 250px; /* Ajusta el tamaño según tus preferencias */
+    height: 300px; /* Ajusta el tamaño según tus preferencias */
+    border: 2px solid #333; /* Borde oscuro */
+    border-radius: 50%; /* Esto crea un círculo alrededor de la imagen */
+    overflow: hidden; /* Oculta el contenido que se desborda del círculo */
+    margin: 0 auto; /* Centra horizontalmente */
+    display: block; /* Asegura que sea un elemento en bloque para que el margen automático funcione */
+}
+
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.social-icons a {
+    margin: 0 20px; /* Espacio entre los iconos */
+    color: #555; /* Color de iconos */
+    font-size: 24px; /* Tamaño de los iconos */
+    transition: color 0.3s ease; /* Transición de color suave */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Color al pasar el cursor */
+}
+
+/* Estilos para la lista de títulos y el check */
+.section-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-link {
+    font-size: 20px; /* Tamaño de letra más grande */
+    padding: 10px 20px; /* Espacio interno */
+    margin: 5px 0; /* Espacio externo */
+    background-color: #89a7a2; /* Fondo gris claro */
+    border: 2px solid #365550; /* Borde oscuro */
+    border-radius: 15px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-link:hover {
+    background-color: #587ba1; /* Cambia el color al pasar el cursor */
+    color: #000000; /* Texto blanco al pasar el cursor */
+}
+
+/* Estilo para el checkmark */
+.section-link.checked::before {
+    content: "\2713";
+    font-size: 16px;
+    color: #FFD700; /* Color dorado para el checkmark */
+    margin-right: 5px;
+}
+
+#presentacion h2 {
+    font-size: 24px; /* Tamaño de letra más grande para el título */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+#presentacion p {
+    font-size: 18px; /* Tamaño de letra para el contenido */
+    line-height: 1.5; /* Espaciado de línea adecuado */
+}
